@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    overflow: hidden;
+}
+.box{
+    width: 100vw;
+    padding: 20px;
+ /*   border: 5px solid #000;*/
+    margin: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 80%;
+}
+nav{
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+
+}
+.blanco{
+    color: white;
+    padding: 0;
+    width: 0;
+    background: center;
+}
+.titulo{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.izquierda{
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+.background{
+    background-image: url("img\One Piece header image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
